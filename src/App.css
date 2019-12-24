@@ -14,8 +14,8 @@
   height: 100%;
   overflow: auto;
 }
+
 .page {
-  background: white;
   display: block;
   margin: 0 auto;
   margin-bottom: 0.5cm;
@@ -24,4 +24,15 @@
   width: 21cm;
   height: 29.7cm;
   margin-top: 2rem;
+  background-color: #eaf3f6;
+}
+
+.page-container {
+  background: #eaf3f6;
+  width: 93%;
+  height: 95%;
+  position: relative;
+  top: 25px;
+  margin: 0 auto;
+  /* padding: 10px; */
 }

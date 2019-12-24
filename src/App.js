@@ -7,7 +7,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <div className="App">
-      <div className="page"></div>
+      <div className="page">
+        <div className="page-container"></div>
+      </div>
     </div>
   );
 }
