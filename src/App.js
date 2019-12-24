@@ -14,6 +14,8 @@ import {
   faLink
 } from "@fortawesome/free-solid-svg-icons";
 
+import Header from "./components/header";
+
 // Adding all icons you're using throught the app
 library.add(faPhone, faAt, faMapMarkerAlt, faLink);
 
@@ -21,7 +23,9 @@ function App() {
   return (
     <div className="App">
       <div className="page">
-        <div className="page-container"></div>
+        <div className="page-container">
+          <Header />
+        </div>
       </div>
     </div>
   );

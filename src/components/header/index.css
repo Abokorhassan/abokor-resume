@@ -1,0 +1,35 @@
+.container {
+  background-color: #fff;
+  margin: 0;
+  padding: 9px;
+  /* width: 98%; */
+  height: 20%;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+#name {
+  font-weight: bold;
+}
+
+#title {
+  color: #008cff;
+  font-weight: bold;
+  padding-bottom: 23px;
+}
+
+.col {
+  background-color: red;
+}
+
+#url {
+  word-wrap: break-word;
+  color: black;
+}
+
+.margin_btw_icon_and_label {
+  margin-right: 5px;
+}
+
+#row {
+  margin-top: 10px;
+}
