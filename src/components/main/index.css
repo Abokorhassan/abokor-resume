@@ -26,3 +26,8 @@ p {
 ul {
   padding-left: 23px;
 }
+
+h6 {
+  font-weight: bold;
+  color: #008cff;
+}

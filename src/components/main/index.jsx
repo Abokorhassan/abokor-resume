@@ -4,6 +4,7 @@ import { Row, Col } from "react-bootstrap";
 import MainProjects from "./main-projects";
 import PersonalStatement from "./perseonal-statement";
 import Hobbies from "./hobbies";
+import Education from "./education";
 
 const Main = () => {
   return (
@@ -14,7 +15,9 @@ const Main = () => {
           <MainProjects />
           <Hobbies />
         </Col>
-        <Col xs={5}></Col>
+        <Col xs={5}>
+          <Education />
+        </Col>
       </Row>
     </div>
   );
