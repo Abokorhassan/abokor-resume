@@ -42,3 +42,7 @@ h6 {
   padding: 7px;
   background-color: #edf1f5;
 }
+
+.span-languages {
+  border-bottom: 2px solid #008cff;
+}

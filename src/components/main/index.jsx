@@ -6,6 +6,7 @@ import PersonalStatement from "./perseonal-statement";
 import Hobbies from "./hobbies";
 import Education from "./education";
 import Skills from "./skills";
+import Languages from "./languages";
 
 const Main = () => {
   return (
@@ -19,6 +20,7 @@ const Main = () => {
         <Col xs={5}>
           <Education />
           <Skills />
+          <Languages />
         </Col>
       </Row>
     </div>
