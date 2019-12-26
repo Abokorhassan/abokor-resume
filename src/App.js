@@ -4,7 +4,7 @@ import "./App.css";
 // Bootstrap
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import { Container, Row, Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 // Font Awesome
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -12,7 +12,6 @@ import {
   faPhone,
   faAt,
   faMapMarkerAlt,
-  faMapMarker,
   faLink
 } from "@fortawesome/free-solid-svg-icons";
 
@@ -29,6 +28,7 @@ function App() {
         <div className="page-container">
           <Container>
             <Header />
+            <Main />
           </Container>
         </div>
       </div>
