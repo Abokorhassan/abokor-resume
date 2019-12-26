@@ -5,6 +5,7 @@ import MainProjects from "./main-projects";
 import PersonalStatement from "./perseonal-statement";
 import Hobbies from "./hobbies";
 import Education from "./education";
+import Skills from "./skills";
 
 const Main = () => {
   return (
@@ -17,6 +18,7 @@ const Main = () => {
         </Col>
         <Col xs={5}>
           <Education />
+          <Skills />
         </Col>
       </Row>
     </div>

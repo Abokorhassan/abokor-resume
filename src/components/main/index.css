@@ -31,3 +31,14 @@ h6 {
   font-weight: bold;
   color: #008cff;
 }
+
+.skill {
+  color: #008cff;
+  font-weight: bold;
+}
+
+.span-skills {
+  border: 2px solid #008cff;
+  padding: 7px;
+  background-color: #edf1f5;
+}
