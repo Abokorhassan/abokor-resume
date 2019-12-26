@@ -4,6 +4,8 @@ import "./App.css";
 // Bootstrap
 import "bootstrap/dist/css/bootstrap.min.css";
 
+import { Container, Row, Col } from "react-bootstrap";
+
 // Font Awesome
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
@@ -15,6 +17,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 import Header from "./components/header";
+import Main from "./components/main";
 
 // Adding all icons you're using throught the app
 library.add(faPhone, faAt, faMapMarkerAlt, faLink);
@@ -24,7 +27,9 @@ function App() {
     <div className="App">
       <div className="page">
         <div className="page-container">
-          <Header />
+          <Container>
+            <Header />
+          </Container>
         </div>
       </div>
     </div>

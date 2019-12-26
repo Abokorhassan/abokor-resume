@@ -1,24 +1,33 @@
 import React from "react";
 import "./index.css";
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Header = () => {
   return (
-    <Container>
+    <div>
       <h1 id="name">Abokor Hassan Elmi</h1>
       <h3 id="title">Software Engineer</h3>
       <Row>
-        <Col xs={4}>
+        <Col xs={3}>
           <FontAwesomeIcon
             icon="phone"
             color="#008cff"
             size="sm"
             className="margin_btw_icon_and_label"
           />
-          0634253226
+          <span>0634253226</span>
         </Col>
-        <Col xs={8}>
+        <Col xs={3}>
+          <FontAwesomeIcon
+            icon="map-marker-alt"
+            color="#008cff"
+            size="sm"
+            className="margin_btw_icon_and_label"
+          />
+          Hargeisa
+        </Col>
+        <Col xs={{ span: 6 }}>
           <FontAwesomeIcon
             icon="at"
             color="#008cff"
@@ -29,16 +38,7 @@ const Header = () => {
         </Col>
       </Row>
       <Row id="row">
-        <Col xs={4}>
-          <FontAwesomeIcon
-            icon="map-marker-alt"
-            color="#008cff"
-            size="sm"
-            className="margin_btw_icon_and_label"
-          />
-          Hargeisa
-        </Col>
-        <Col xs={8}>
+        <Col xs={12}>
           <FontAwesomeIcon
             icon="link"
             color="#008cff"
@@ -50,7 +50,7 @@ const Header = () => {
           </a>
         </Col>
       </Row>
-    </Container>
+    </div>
   );
 };
 
