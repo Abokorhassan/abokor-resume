@@ -1,6 +1,7 @@
 import React from "react";
 import "./index.css";
 import { Row, Col } from "react-bootstrap";
+import MainProjects from "./main-projects";
 import PersonalStatement from "./perseonal-statement";
 
 const Main = () => {
@@ -9,6 +10,7 @@ const Main = () => {
       <Row>
         <Col xs={7}>
           <PersonalStatement />
+          <MainProjects />
         </Col>
         <Col xs={5}></Col>
       </Row>

@@ -15,3 +15,14 @@ h3 {
 p {
   margin-bottom: 0.7rem;
 }
+
+#url-main-project {
+  word-wrap: break-word;
+  color: black;
+  /* text-decoration: underline;
+  text-decoration-color: #008cff; */
+}
+
+ul {
+  padding-left: 23px;
+}
